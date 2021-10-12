@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "66340903508",
+    "firebase_url": "https://cemproject-5dcdc-default-rtdb.firebaseio.com",
+    "project_id": "cemproject-5dcdc",
+    "storage_bucket": "cemproject-5dcdc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66340903508:android:97f3e3c4ceede3955a2bc1",
+        "android_client_info": {
+          "package_name": "com.example.a300cemproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66340903508-ltdl7gkcsljorpufe9omvvo59vm64dqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ3C30k7mOPy-uDHYB73o9j9GZQiEzI7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66340903508-ltdl7gkcsljorpufe9omvvo59vm64dqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

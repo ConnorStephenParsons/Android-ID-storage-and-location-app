@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IdentityActivity">
+
+
+    <TextView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal"
+        android:text="@string/droidid"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:layout_below="@id/banner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:id="@+id/studentId"
+        android:layout_marginTop="35dp"
+        android:layout_width="370dp"
+        android:layout_height="400dp"
+        android:layout_marginBottom="50dp"
+        android:layout_below="@id/banner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camera"
+        android:layout_below="@id/studentId"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gallery"
+        android:layout_below="@id/camera"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"/>
+
+
+</RelativeLayout>

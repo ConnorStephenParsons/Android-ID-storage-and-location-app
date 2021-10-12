@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">300cemproject</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">LOG IN</string>
+    <string name="need_to_register">Need to register?</string>
+    <string name="logo">LOGO</string>
+    <string name="welcome_to_juice_snap">Welcome to Juice Snap</string>
+    <string name="Hello_Your_Juices_are_Shown_Below" />
+    <string name="store_your_identity">Store your identity</string>
+    <string name="droidid">DroidID</string>
+    <string name="MyStudentID" />
+
+</resources>
